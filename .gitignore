@@ -2,7 +2,11 @@
 
 # dependencies
 /node_modules
-/demo01/node_modules
+/react-常规起步/node_modules
+/vdom-fiber-diff/node_modules
+/react-toDoList/node_modules
+/react-hooks-demo/node_modules
+
 /.pnp
 .pnp.js
 
