@@ -37,7 +37,9 @@ function useStateCom() {
     <>
       <div className="name">{name}</div>
       <div className="name">{arr}</div>
-      <div onClick={() => setName("小红")}>点击修改名字</div>
+      <div style={{ cursor: "pointer" }} onClick={() => setName("小红1")}>
+        点击修改名字
+      </div>
       <div onClick={handleAge}>点击修改数组</div>
       <div>
         {play.game}：{play.time}
