@@ -4,6 +4,7 @@ import UseReducerCom from "./components/useReducer";
 import UseReducerCom2 from "./components/useReducer2";
 import UseStorageCom from "./components/useStorage";
 import UseHistoryCom from "./components/useHistory";
+import UseTransitionCom from "./components/useTransition";
 import "./App.css";
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
       <h3>3、useSyncExternalStore</h3>
       <UseStorageCom></UseStorageCom>
       <UseHistoryCom></UseHistoryCom>
+      <br />
+      <h3>4、useTransition</h3>
+      <UseTransitionCom></UseTransitionCom>
     </div>
   );
 }
