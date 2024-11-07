@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Autor: sy
+ * @Date: 2024-11-04 11:35:09
+ * @LastEditors: sy
+ * @LastEditTime: 2024-11-06 16:26:26
+ */
 import { useSyncExternalStore } from "react";
 // 我们实现一个useStorage Hook，用于订阅 localStorage 数据。这样做的好处是，我们可以确保组件在 localStorage 数据发生变化时，自动更新同步。
 /**
@@ -41,5 +48,5 @@ export const useStorage = (key: string, defaultValue: any) => {
   // 返回数据
   const res = useSyncExternalStore(subscribe, getSnapshot);
 
-  return [res, setStorage] as const; // 返回一个数组
+  return [res, setStorage] as const; // 返回一个数组 as const 确保返回的数组是只读的
 };
