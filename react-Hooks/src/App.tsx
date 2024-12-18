@@ -5,6 +5,8 @@ import UseReducerCom2 from "./components/useReducer2";
 import UseStorageCom from "./components/useStorage";
 import UseHistoryCom from "./components/useHistory";
 import UseTransitionCom from "./components/useTransition";
+import UseDeferredValue from "./components/useDeferredValue";
+import UseEffect from "./components/useEffect";
 import "./App.css";
 
 function App() {
@@ -25,6 +27,11 @@ function App() {
       <br />
       <h3>4、useTransition</h3>
       <UseTransitionCom></UseTransitionCom>
+      <br />
+      <h3>5、useDeferredValue</h3>
+      <UseDeferredValue></UseDeferredValue>
+      <h3>6、useEffect</h3>
+      <UseEffect></UseEffect>
     </div>
   );
 }
